@@ -1,0 +1,288 @@
+.home {
+    .hero {
+        max-width: 100%; 
+        height: $hero-height;
+        background-image: url(../images/home.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        color: white;
+
+        .callout {
+            width: 416px;
+            min-height: 70px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            p {
+                margin-bottom: 50px;
+            }
+
+            h3 {
+                color: #EE4367;
+            }
+
+            .red {
+                color: #EE4367;
+            }
+
+
+            span {
+             background-color: #EE4367;
+             color: #fff;
+             padding: 11px 21px;
+             border: none;
+            }
+        }
+    }
+
+    .hero2 {
+        max-width: 100%; 
+        height: 300px;
+       // background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        color: white;
+
+        .callout {
+            width: 416px;
+            min-height: 70px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            p {
+                margin-bottom: 50px;
+            }
+
+            h3 {
+                color: #EE4367;
+            }
+
+
+            span {
+             background-color: #EE4367;
+             color: #fff;
+             padding: 11px 21px;
+             border: none;
+            }
+        }
+    }
+
+    .about-header {
+
+        h1 {
+                color: #fffdaf;
+                font-size: 100px;
+        }
+    }
+
+    .about-header2 {
+
+        h1 {
+                color: #EE4367;
+                font-size: 100px;
+        }
+    }
+
+    .about-header3 {
+
+        h1 {
+                color: #026440;
+                font-size: 100px;
+        }
+    }
+
+    .about-header4 {
+
+        h1 {
+                color: #9a009a;
+                font-size: 100px;
+        }
+    }
+
+    .about-header5 {
+
+        h1 {
+                color: #78ddc5;
+                font-size: 100px;
+        }
+    }
+
+    .promo {
+        max-width: 818px;
+        min-height: $tour-banner-height;
+        background-image: url(hero.jpg);
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin: -43px auto 0 auto;
+
+        span {
+            background-color: #EE4367;
+            border-radius: 20px;
+            color: #fff;
+            padding: 11px 21px;
+            border: none;
+            font-size: small;
+        }
+
+    }
+
+    .promo2 {
+        max-width: 318px;
+        min-height: $tour-banner-height;
+        background-image: url(hero.jpg);
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin: -43px auto 0 auto;
+
+        span {
+            background-color: #EE4367;
+            border-radius: 20px;
+            color: #fff;
+            padding: 11px 21px;
+            border: none;
+            font-size: small;
+        }
+
+    }
+
+
+    .form-area {
+        max-width: 818px;
+        min-height: $tour-banner-height;
+        margin: 50px auto 0 auto;
+
+        .form {
+
+            .two-input {
+                min-height: 59px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                
+
+                .left {
+                  width: 344px;
+                  border-style: solid;
+                border-color: #79addc;
+                border-width: 2px;
+                }
+
+                .right {
+                width: 453px;
+                border-style: solid;
+                border-color: #79addc;
+                border-width: 2px;
+                }
+            }
+
+            .three-input {
+                min-height: 59px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                .left {
+                  width: 120px;
+                  height: 50px;
+                  border-style: solid;
+                border-color: #79addc;
+                border-width: 2px;
+                }
+
+                .right {
+                width: 120px;
+                height: 50px;
+                border-style: solid;
+                border-color: #79addc;
+                border-width: 2px;
+                }
+            }
+
+            .big-input {
+                min-height: 59px;
+                display: flex;
+                align-items: left;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                border-style: solid;
+                border-color: #79addc;
+                border-width: 2px;
+
+                .left {
+                  width: 1020px;
+                  height: 190px;
+                  
+                }
+            }
+            
+            .single-line-input-holder {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+            
+                .large-input {
+                width: 698px;
+                height: 50px;
+                border-style: solid;
+                border-color: #79addc;
+                border-width: 2px;
+
+            }
+            }
+
+            .double-line-input-holder {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+            
+                .large-input {
+                width: 50px;
+                height: 50px;
+
+            }
+            }
+
+            span {
+                background-color: #EE4367;
+                border-radius: 20px;
+                color: #fff;
+                padding: 11px 380px;
+                border: none;
+            }
+
+            }
+    }
+    
+    }
+
+@media  (max-width: 760px) {
+    .home {
+        .promo {
+           flex-direction: column;
+           align-items: center;
+        }
+    }
+}
